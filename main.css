@@ -1,17 +1,62 @@
 * {
 direction:rtl;
 text-align:right;
-border:1px solid gray;
+box-sizing: border-box;
+margin:0;
+padding:0;
 }
 
 header  {
     height:105px;
     width:100%;
+    background-color:gray;
+    
+}
+
+#header-container {
+    position:relative;
+    width:900px;
+    height:100%;
+    margin:auto;
+    border:1px solid black;
+}
+
+#search-bar>image {
+
+    position:absolute;
+    left:0px;
 }
 
 #search-bar {
     width:100px;
-    float:left;
-    margin-top:20px;
-    margin-left:20px;
+    position:absolute;
+    top:20px;
+    left:0px;
+
+}
+
+#logo>img {
+    position:absolute;
+    bottom:-20px;
+    right:8px
+    image-size:142px;
+    padding-top:20px;
+}
+
+nav {
+    border:1px solid black;
+    position:absolute;
+    right:143px;
+    bottom:0;
+
+}
+
+nav>ul>li {
+    float:right;
+    padding:5px;
+    list-style:none;
+}
+
+nav>ul>li>a {
+    text-decoration:none;
 }
