@@ -17,6 +17,7 @@ header  {
     height:105px;
     width:100%;
     background-color:gray;
+   
     
 }
 
@@ -26,11 +27,15 @@ header  {
     height:100%;
     margin:auto;
     border:1px solid black;
+    z-index: 10;
 }
+
+/*search bar design*/
 
 #search-bar {
     float:left;
     border:1px solid black;
+    margin-top:20px;
  }
 
 #search-bar>image {
@@ -40,15 +45,28 @@ header  {
 }
 
 #search-bar>input {
-
-    padding:1px;
+    float:left;
+    
 }    
+
+#search-bar>a {
+
+    float:right;
+    font-size:13px;
+    text-decoration: none;
+    color:white;
+    padding:2px;
+    margin-left:10px;
+}
+
+
+/* logo design */
 
 #logo>img {
     position:absolute;
     bottom:-20px;
-    right:8px
-    image-size:142px;
+    right:8px;
+    width:142px;
     padding-top:20px;
 }
 
@@ -77,8 +95,10 @@ nav>ul>li {
 nav>ul>li>a {
     text-decoration:none;
     color:white;
-    margin:10px;
-    padding:5px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:20px;
+    border:1px white solid;
 }
 
 nav>ul>li>a:hover {
@@ -105,6 +125,8 @@ nav>ul>li>a:hover {
     right:0;    
     background-color:gray;
     width:100px;
+    
+    
 
 }
 
@@ -112,12 +134,17 @@ nav>ul>li>a:hover {
    
     list-style:none;
 
+    
+
 }
 
 .sub-menu>ul>li>a {
     text-decoration:none;
     color:white;
-    border-bottom:1px white solid;
+    border:1px white solid;
+    padding:2px;
+    display:block;
+    
 }
 
 .sub-menu>ul>li>a:hover {
@@ -316,7 +343,7 @@ nav>ul>li>a:hover {
 float:left;
 padding-top:20px;
 padding-left:20px;
-border:border:1px black solid;
+border:1px black solid;
 
 }
 
