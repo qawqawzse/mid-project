@@ -107,10 +107,10 @@ nav>ul>li {
 
 }
 
-nav>ul:first-child{
+#home-icon{
+    border-style:none;
+}  
 
-    border-style:none;    
-}
 
 nav>ul>li>a {
     text-decoration:none;
@@ -453,3 +453,7 @@ footer>ul>li>a {
     
 }
    
+#facebook-icon {
+
+    border-style:none;
+}
