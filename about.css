@@ -1,0 +1,199 @@
+
+*{
+
+    font-size:13px;
+    font-weight: normal;
+}
+
+
+main {
+    width:900px;
+    height:691px;
+    margin:auto;
+    margin-top:30px;
+}
+
+
+
+.sidebar {
+
+    width:13.5%;
+    height:100%;
+    float:right;
+    display:block;
+    
+
+}
+
+.article {
+
+    width:48.8%;
+    height:100%;
+    float:right;
+    padding-right:20px;
+
+}
+
+.history {
+
+    width:37.7%;
+    height:100%;
+    float:right;
+
+}
+
+/* sidebar design */
+
+.sidebar>ul{
+
+    list-style:none;
+    
+
+}
+
+.sidebar>ul>li>a{
+
+    background-color:lightgray;
+    color:black;
+    text-decoration:none;
+    width:100%;
+    display:block;
+    padding:12px;
+    font-size:13px;
+    font-weight: normal;
+    border-bottom:solid 1px gray;
+
+}
+
+.sidebar>ul>li>a:hover{
+
+    color:rgb(5, 36, 173);
+    text-decoration:underline;
+}
+
+
+
+/* article section design */
+
+.pagenav {
+
+    float:right;
+    width:100%;
+    height:40px;
+    font-size:12px;
+   
+    
+}
+
+.pagenav>a{
+    text-decoration:none;
+    color:gray;
+}
+
+.pagenav>a:hover{
+
+    text-decoration:underline;
+    color:rgb(5, 36, 173);
+}
+
+
+
+.article>h1{
+
+    border-bottom:solid 1px rgb(194, 194, 194);
+    font-size:15px;
+    color:gray;
+    padding-bottom:5px;
+    font-weight: bold;
+
+}
+
+.article>h2{
+
+    color:rgb(5, 36, 173);
+    padding-top:10px ;
+    padding-left:10px;
+    font-size:13px;
+    font-weight: bold;
+
+
+}
+
+
+
+
+.article>p{
+
+    font-size:13px;
+    padding-bottom:10px;
+   
+}
+
+.article>video{
+
+    width:415px;
+    border:1px solid gray;
+    margin-top:20px;
+    background-color: rgb(214, 211, 211);
+
+         
+}
+
+
+
+/* history section design */
+
+.history {
+
+    position:relative;
+    padding-top:40px;
+}
+.history>img{
+    position:absolute;
+    margin:20px;
+    width: 292px;
+    z-index:1;
+
+}
+
+.history>h1{
+
+    position:relative;
+    margin-right:40px;
+    margin-bottom:30px;
+    margin-top:30px;
+    font-size:15px;
+    z-index:10;
+
+}
+
+.history>h2{
+
+    position:relative;
+    z-index:10;
+    margin-right:40px;
+    color:rgb(5, 36, 173);
+    font-weight: bold;
+}
+
+.history>p{
+
+    position:relative;
+    z-index:11;
+    margin-right:40px;
+    margin-left:40px;
+    margin-bottom:10px;
+
+
+}
+
+.history>a{
+
+    position:relative;
+    z-index:10;
+    margin-right:40px;
+    color:rgb(5, 36, 173);
+    text-decoration:none;
+
+}
+
